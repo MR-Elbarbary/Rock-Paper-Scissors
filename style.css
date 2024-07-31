@@ -1,0 +1,99 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+img{
+    width: 10px;
+    height: 10px;
+}
+.options button{
+    border-radius: 50%;
+    border: 2px solid;
+    border-color: black;
+}
+
+body{
+    background-color: darkblue;
+    color: aliceblue;
+    margin: 0px;
+    display: flex;
+    flex: auto;
+}
+
+.container{
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+.options{
+    display: flex;
+    gap: 4px;
+    margin-bottom: 10px;
+}
+
+.message{
+    font-size: 7px;
+}
+
+.player{
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+}
+
+.score{
+    display: flex;
+    gap: 35px;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.score p {
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+    font-size: 12px;
+}
+
+.player .you , .player .computer{
+    background-color: aliceblue;
+    width: 75px;
+    height: 75px;
+    border-radius: 10%;
+}
+
+div .players{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-size: 10px;
+    flex: auto;
+}
+
+div .you , div .computer{
+    display: flex;
+    flex: auto;
+}
+
+h4 {
+    margin-top: 10px;
+}
+
+#restart{
+    font-size: 10px;
+}
+
+.you , .computer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:start;
+}
+
+.you img , .computer img{
+    margin: auto 0;
+    height: 40px;
+    width: 40px;
+}
