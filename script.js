@@ -14,6 +14,8 @@ function Restart() {
     computerScoreP.innerHTML = 0;
     let message = document.querySelector(".message")
     message.innerHTML ="chose Rock, paper or scissors";
+    humanScore = 0;
+    computerScore = 0;
 }
 
 function playRound(humanChoice, computerChoice) {
